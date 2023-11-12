@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    .bgimage{
+        background-image: url(images/top-view-table-full-delicious-food-composition.jpg);
+        background-size: 100% 100%;
+        width: 100%;
+        height: 100vh;
+    padding-bottom: 7%;
+    }
+    
+    .container{
+        max-width: 100%;
+        background-color:rgb(80, 78, 78);
+    
+        
+    }
+
+    
+    
+    header.topbar{
+        background:var(--secondary);
+        color:var(--pure)
+
+    }
+   
+    header .toper .container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    .menu{
+        width: 100%;
+        height: 100px;
+        background-color: rgba(154, 228, 69, 0.5);
+    }
+    
+    .leftmenu{
+        width: 25%;
+        line-height: 80px;
+        float: left;
+    }
+    
+    .leftmenu h4{
+        padding-left: 70px;
+        font-weight: bold;
+    color: #f5f4f4;
+    font-size: 25px;
+    font-family: "Montserrat",sans-serif;
+    
+    }
+    
+    .rightmenu{
+        width: 75%;
+        height: 100px;
+        float: right;
+    }
+    
+    .rightmenu ul{
+        margin-left: 300px;
+    }
+    
+    .rightmenu ul li{
+        font-family: "Montserrat",sans-serif;
+        display:inline-block ;
+        list-style:none ;
+        font-size: 15px;
+        color: white;
+        font-weight: bold;
+        line-height: 100px;
+        margin-left: 40px;
+        text-transform: uppercase;
+    
+    }
+    
+    #firstlist{
+        color: rgb(240, 143, 17);
+    }
+    .rightmenu ul li:hover{
+        color:blue
+    }
+    
+    .text{
+        width: 100%;
+        margin-top: 185px;
+        text-transform:uppercase ;
+        text-align: center;
+        color: #f5f4f4;
+    }
+    
+    .text h4{
+        font-size: 18PX;
+        font-family: "open sans",sans-serif;
+    
+    }
+    
+    .text h1{
+        font-size: 60px;
+        font-family:"open sans",sans-serif;
+        font-weight: 700px;
+        margin:14px 0px ;
+        padding-top: 10px;
+    }
+    .text h3{
+        
+        font-size: 14px;
+        font-family: "open sans",sans-serif;
+    }
+    #buttonone{
+        
+        background-color: rgb(245, 221, 221);
+        border: none;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 40px;
+        width: 150px;
+        font-family: "Montserrat",sans-serif;
+        border: 3px solid black;
+    
+    }
+    #buttontwo{
+
+        
+        background-color:greenyellow;
+        
+        border:none;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 40px;
+        width: 150px;
+        font-family: "Montserrat",sans-serif;
+        border: 3px solid black;
+        margin: 30px 0px;
+    }
+    .third{
+        background-color:gray;
+    }
+
+   
+
+
